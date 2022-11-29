@@ -13,7 +13,6 @@
 		57D2E3962936305300B01163 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D2E3952936305300B01163 /* Preview Assets.xcassets */; };
 		57D2E39D293634C100B01163 /* Publish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D2E39C293634C100B01163 /* Publish.swift */; };
 		57D2E3A12936519D00B01163 /* PublishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D2E3A02936519D00B01163 /* PublishViewController.swift */; };
-		57D2E3A22936525200B01163 /* R5Streaming.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D2E39E2936515400B01163 /* R5Streaming.framework */; };
 		57D2E3A52936529F00B01163 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D2E3A42936529F00B01163 /* CoreFoundation.framework */; };
 		57D2E3A7293652BD00B01163 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D2E3A6293652BC00B01163 /* OpenAL.framework */; };
 		57D2E3A9293652C300B01163 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D2E3A8293652C300B01163 /* QuartzCore.framework */; };
@@ -56,7 +55,6 @@
 				57D2E3AB293652CE00B01163 /* VideoToolbox.framework in Frameworks */,
 				57D2E3B32936534A00B01163 /* libc++.tbd in Frameworks */,
 				57D2E3A52936529F00B01163 /* CoreFoundation.framework in Frameworks */,
-				57D2E3A22936525200B01163 /* R5Streaming.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
