@@ -22,6 +22,7 @@
 		57D2E3B12936533300B01163 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D2E3B02936532A00B01163 /* libiconv.2.4.0.tbd */; };
 		57D2E3B32936534A00B01163 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D2E3B22936534400B01163 /* libc++.tbd */; };
 		57D2E3B72936556400B01163 /* LiveStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D2E3B62936556400B01163 /* LiveStream.swift */; };
+		57D2E3B9293656C000B01163 /* LiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D2E3B8293656C000B01163 /* LiveView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		57D2E3B02936532A00B01163 /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
 		57D2E3B22936534400B01163 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		57D2E3B62936556400B01163 /* LiveStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveStream.swift; sourceTree = "<group>"; };
+		57D2E3B8293656C000B01163 /* LiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				57D2E3902936305200B01163 /* ContentView.swift */,
 				57D2E39C293634C100B01163 /* Publish.swift */,
 				57D2E3B62936556400B01163 /* LiveStream.swift */,
+				57D2E3B8293656C000B01163 /* LiveView.swift */,
 				57D2E3A02936519D00B01163 /* PublishViewController.swift */,
 				57D2E3922936305300B01163 /* Assets.xcassets */,
 				57D2E39E2936515400B01163 /* R5Streaming.framework */,
@@ -188,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D2E3B9293656C000B01163 /* LiveView.swift in Sources */,
 				57D2E3A12936519D00B01163 /* PublishViewController.swift in Sources */,
 				57D2E39D293634C100B01163 /* Publish.swift in Sources */,
 				57D2E3B72936556400B01163 /* LiveStream.swift in Sources */,
