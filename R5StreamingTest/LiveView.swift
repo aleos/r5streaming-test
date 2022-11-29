@@ -12,7 +12,18 @@ struct LiveView: View {
     
     var body: some View {
         ZStack {
-            EmptyView()
+            VStack {
+                Spacer()
+                Spacer()
+                Button(liveStream.state == .stream ? "Stop" : "Start") {
+                    liveStream.state == .end ? liveStream.onStartStream() : liveStream.onEndStream()
+                }
+                .font(.largeTitle)
+                .buttonStyle(.borderedProminent)
+                Spacer()
+            }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .border(.green, width: 1)
         }
         .preferredColorScheme(.dark)
         .background(

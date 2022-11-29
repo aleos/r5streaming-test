@@ -9,18 +9,13 @@ import AVFoundation
 import Foundation
 
 @MainActor class LiveStream: ObservableObject {
-    enum State { case settings, countdown, stream, end, stats }
+    
+    enum State { case stream, end }
         
     // View
     
     @Published private(set) var publishView: PublishView
-    @Published private(set) var state: State = .settings
-    
-    // Camera
-    
-    @Published private(set) var cameraIsOn = true
-    @Published private(set) var microphoneIsOn = true
-    @Published private(set) var selectedCamera: AVCaptureDevice.Position = .back
+    @Published private(set) var state: State = .end
     
     private var publish = Publish()
     
@@ -38,37 +33,13 @@ import Foundation
     
     // MARK: Intents
     
-    func onStartStream(_ title: String, category: String) async throws {
-        state = .countdown
-    }
-    
-    func onFinalCountdown() {
+    func onStartStream() {
         state = .stream
         publish.start(stream: "R5StreamingTestStream")
     }
     
     func onEndStream() {
         state = .end
-    }
-    
-    func onEndStreamConfirm(cancel: Bool = false) {
-        state = cancel ? .stream : .stats
-        if !cancel {
-            publish.stop()
-        }
-    }
-            
-    // MARK: Camera Control
-    
-    func turnCamera(on: Bool) {
-        cameraIsOn = on
-    }
-    
-    func turnMicrophone(on: Bool) {
-        microphoneIsOn = on
-    }
-    
-    func switchCamera(to position: AVCaptureDevice.Position) {
-        selectedCamera = position
+        publish.stop()
     }
 }

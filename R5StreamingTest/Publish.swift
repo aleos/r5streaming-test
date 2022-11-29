@@ -61,8 +61,6 @@ class Publish: ObservableObject {
         let camera = R5Camera(device: videoDevice, andBitRate: 1000)
         camera?.width = Int32(UIScreen.main.bounds.width)
         camera?.height = Int32(UIScreen.main.bounds.height)
-        #warning("Temporary disabled")
-//        camera?.orientation += 90
         
         let audioDevice = AVCaptureDevice.default(for: .audio)
         let microphone = R5Microphone(device: audioDevice)
