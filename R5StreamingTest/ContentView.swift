@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isShowingPublish = false
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            NavigationLink(isActive: $isShowingPublish) { LiveView(liveStream: LiveStream()) } label: { EmptyView() }
+            Button("Publish") { isShowingPublish = true }
+                .font(.largeTitle)
+                .buttonStyle(.borderedProminent)
         }
-        .padding()
     }
 }
 
