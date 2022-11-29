@@ -12,6 +12,16 @@
 		57D2E3932936305300B01163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D2E3922936305300B01163 /* Assets.xcassets */; };
 		57D2E3962936305300B01163 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D2E3952936305300B01163 /* Preview Assets.xcassets */; };
 		57D2E39D293634C100B01163 /* Publish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D2E39C293634C100B01163 /* Publish.swift */; };
+		57D2E3A12936519D00B01163 /* PublishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D2E3A02936519D00B01163 /* PublishViewController.swift */; };
+		57D2E3A22936525200B01163 /* R5Streaming.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D2E39E2936515400B01163 /* R5Streaming.framework */; };
+		57D2E3A52936529F00B01163 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D2E3A42936529F00B01163 /* CoreFoundation.framework */; };
+		57D2E3A7293652BD00B01163 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D2E3A6293652BC00B01163 /* OpenAL.framework */; };
+		57D2E3A9293652C300B01163 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D2E3A8293652C300B01163 /* QuartzCore.framework */; };
+		57D2E3AB293652CE00B01163 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D2E3AA293652CE00B01163 /* VideoToolbox.framework */; };
+		57D2E3AD293652ED00B01163 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D2E3AC293652E100B01163 /* libz.tbd */; };
+		57D2E3AF2936531500B01163 /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D2E3AE2936530300B01163 /* libbz2.1.0.tbd */; };
+		57D2E3B12936533300B01163 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D2E3B02936532A00B01163 /* libiconv.2.4.0.tbd */; };
+		57D2E3B32936534A00B01163 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D2E3B22936534400B01163 /* libc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +31,16 @@
 		57D2E3922936305300B01163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57D2E3952936305300B01163 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		57D2E39C293634C100B01163 /* Publish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publish.swift; sourceTree = "<group>"; };
+		57D2E39E2936515400B01163 /* R5Streaming.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = R5Streaming.framework; sourceTree = "<group>"; };
+		57D2E3A02936519D00B01163 /* PublishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishViewController.swift; sourceTree = "<group>"; };
+		57D2E3A42936529F00B01163 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		57D2E3A6293652BC00B01163 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		57D2E3A8293652C300B01163 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		57D2E3AA293652CE00B01163 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		57D2E3AC293652E100B01163 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		57D2E3AE2936530300B01163 /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
+		57D2E3B02936532A00B01163 /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		57D2E3B22936534400B01163 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +48,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D2E3B12936533300B01163 /* libiconv.2.4.0.tbd in Frameworks */,
+				57D2E3A9293652C300B01163 /* QuartzCore.framework in Frameworks */,
+				57D2E3AD293652ED00B01163 /* libz.tbd in Frameworks */,
+				57D2E3AF2936531500B01163 /* libbz2.1.0.tbd in Frameworks */,
+				57D2E3A7293652BD00B01163 /* OpenAL.framework in Frameworks */,
+				57D2E3AB293652CE00B01163 /* VideoToolbox.framework in Frameworks */,
+				57D2E3B32936534A00B01163 /* libc++.tbd in Frameworks */,
+				57D2E3A52936529F00B01163 /* CoreFoundation.framework in Frameworks */,
+				57D2E3A22936525200B01163 /* R5Streaming.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +68,7 @@
 			children = (
 				57D2E38D2936305200B01163 /* R5StreamingTest */,
 				57D2E38C2936305200B01163 /* Products */,
+				57D2E3A32936529F00B01163 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,7 +86,9 @@
 				57D2E38E2936305200B01163 /* R5StreamingTestApp.swift */,
 				57D2E3902936305200B01163 /* ContentView.swift */,
 				57D2E39C293634C100B01163 /* Publish.swift */,
+				57D2E3A02936519D00B01163 /* PublishViewController.swift */,
 				57D2E3922936305300B01163 /* Assets.xcassets */,
+				57D2E39E2936515400B01163 /* R5Streaming.framework */,
 				57D2E3942936305300B01163 /* Preview Content */,
 			);
 			path = R5StreamingTest;
@@ -68,6 +100,21 @@
 				57D2E3952936305300B01163 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		57D2E3A32936529F00B01163 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57D2E3B22936534400B01163 /* libc++.tbd */,
+				57D2E3B02936532A00B01163 /* libiconv.2.4.0.tbd */,
+				57D2E3AE2936530300B01163 /* libbz2.1.0.tbd */,
+				57D2E3AC293652E100B01163 /* libz.tbd */,
+				57D2E3AA293652CE00B01163 /* VideoToolbox.framework */,
+				57D2E3A8293652C300B01163 /* QuartzCore.framework */,
+				57D2E3A6293652BC00B01163 /* OpenAL.framework */,
+				57D2E3A42936529F00B01163 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D2E3A12936519D00B01163 /* PublishViewController.swift in Sources */,
 				57D2E39D293634C100B01163 /* Publish.swift in Sources */,
 				57D2E3912936305200B01163 /* ContentView.swift in Sources */,
 				57D2E38F2936305200B01163 /* R5StreamingTestApp.swift in Sources */,
@@ -273,6 +321,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"R5StreamingTest/Preview Content\"";
 				DEVELOPMENT_TEAM = 2UZBQ4Q9LW;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/R5StreamingTest",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -302,6 +354,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"R5StreamingTest/Preview Content\"";
 				DEVELOPMENT_TEAM = 2UZBQ4Q9LW;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/R5StreamingTest",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
